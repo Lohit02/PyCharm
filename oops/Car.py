@@ -9,6 +9,8 @@ class Car:
 
     def drive(self):
         print("This " + self.model + " car is driving")
+        return self
 
     def stop(self):
         print("This car " + self.model + " is stopped")
+        return self
